@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <canvas id="canvas1"></canvas>
+    <div class="controls">
+      <button id="full-screen-button">F</button>
+      <button id="reset-button">R</button>
+    </div>
+
+    <div class="assets">
+      <!-- IMAGES -->
+      <img src="./assets/crew.png" alt="crew" id="crew">
+      <img src="./assets/crewSprite.png" alt="crewSprite" id="crewSprite">
+      <img src="./assets/beetlemorph100x100.png" alt="beetlemorph100x100" id="beetlemorph100x100">
+      <img src="./assets/lobstermorph100x100.png" alt="lobstermorph100x100" id="lobstermorph100x100">
+      <img src="./assets/phantommorph100x100.png" alt="phantommorph100x100" id="phantommorph100x100">
+      <!-- AUDIO -->
+      <audio src="./assets/newgame.mp3" id="newgame"></audio>
+      <audio src="./assets/boom1.mp3" id="boom1"></audio>
+      <audio src="./assets/boom2.mp3" id="boom2"></audio>
+      <audio src="./assets/boom3.mp3" id="boom3"></audio>
+      <audio src="./assets/boom4.mp3" id="boom4"></audio>
+      <audio src="./assets/slide.mp3" id="slide"></audio>
+      <audio src="./assets/win.mp3" id="win"></audio>
+      <audio src="./assets/lose.mp3" id="lose"></audio>
+      <audio src="./assets/scream.mp3" id="scream"></audio>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
